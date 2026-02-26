@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero button {
+  padding: 12px 30px;
+  border: none;
+  background: #00c6ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 25px;
+  width: 280px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.ad-section {
+  text-align: center;
+  padding: 40px;
+  background: rgba(0,0,0,0.3);
+  margin: 40px;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(0,0,0,0.4);
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
